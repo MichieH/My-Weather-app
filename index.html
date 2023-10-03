@@ -1,0 +1,130 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              type="search"
+              placeholder="Type a city.."
+              autofocus="on"
+              autocomplete="off"
+              id="city-input"
+              class="form-control shadow-sm"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              type="submit"
+              value="Search"
+              class="form-control btn btn-primary shadow-sm w-100"
+            />
+          </div>
+          <div class="col-3">
+            <button
+              class="btn btn-success w-100"
+              id="current-location-button"
+            >
+              Current
+            </button>
+          </div>
+        </div>
+      </form>
+      <h1 id="city"></h1>
+      <ul>
+        <li id="date"></li>
+        <li id="description"></li>
+      </ul>
+      <div class="row">
+        <div class="col-6">
+          <div class="clearfix">
+            <div class="float-left">
+              <span class="temperature" id="temperature"></span
+              ><span class="units">°C</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+        <div class="row">
+          <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">🌥️</h5>
+                <p class="card-text">Tuesday</p>
+                <p class="card-text">18°C </p>
+              </div>
+            </div>
+              </div>
+              <div class="col-3">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">🌤️</h5>
+                      <p class="card-text">Wednesday</p>
+                      <p class="card-text">20°C </p>
+                    </div>
+                  </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">☀️</h5>
+                            <p class="card-text">Thursday</p>
+                            <p class="card-text">24°C </p>
+                          </div>
+                        </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">☀️</h5>
+                                <p class="card-text">Friday</p>
+                                <p class="card-text">27°C </p>
+                              </div>
+                            </div>
+                              </div>
+                              
+                        <div class="row">
+                          <div class="d-grid gap-2 col-6 mx-auto">
+
+                            <!--form id = "search-form">
+                              <input type= "text" placeholder = "Search for a city " autocomplete ="off" autofocus ="on" id="search-text-input" />
+                              <input type ="submit"value="search"/>
+                          <button class="btn btn-primary" type="button">📌 Change location</button>
+                            </div>
+                          </form-->
+                        </div>
+          </div>
+       </div>
+     </div>
+     
+     <script src="app2.js">
+      
+    
+     </script>
+  </body>
+</html>
