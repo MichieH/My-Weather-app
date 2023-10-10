@@ -1,59 +1,163 @@
-body {
-    font-family: arial, sans-serif;
+body{
+  background-color: #fcfaf8;;
   }
   
-  h1 {
-    color: #7c7c7c;
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 28px;
-    margin: 0;
+  h1{
+  color: #cca8e9;
+  font-size: 38px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  line-height: 29px;
+  line-height: 48px;
+  margin: 20px 0 0px;
+  
+          }
+  
+  
+  a{
+  color: rgb(135, 135, 135);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  text-decoration: none;
+  background-color: transparent;
   }
   
-  ul {
-    margin: 0 0 10px;
-    padding: 0;
+  ul{
+  
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
   }
   
-  li {
-    color: #7c7c7c;
-    font-size: 16px;
-    font-weight: 100;
-    height: 19px;
-    line-height: 1;
-    list-style: none;
+  li{
+  list-style: none;
+      margin: 0;
+      padding: 0;
+      color: rgb(135, 135, 135);
+      font-size: 16px;
+      font-family: 'Bricolage Grotesque', sans-serif;    
+      font-weight: 100;
+      line-height: 19px;
+  }
+  .container {
+  max-width: 800px;
+  }
+  
+  .app{
+  margin: 60px auto;
+  max-width: 800px;
   }
   
   .weather-app {
-    border: 1px solid #dadde1;
-    padding: 15px;
-    margin: 20px auto;
-    border-radius: 10px;
-    max-width: 600px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, .08);
+  color: #878787;
+  font-family: 'Bricolage Grotesque' sans-serif;
+  padding: 40px;
+  
+  }
+  .search-form{
+  border-bottom: 1px solid #fcfaf8;
+  margin-top: 40px;
+  padding-bottom: 30px;
+          }
+  
+  
+  .input-text {
+      background: #f5eee6;
+      border: none;
+      border-radius: 6px;
+      color: rgba(39, 33, 66, .4);
+      display: inline-block;
+      font-size: 16px;
+      height: 50px;
+      line-height: 20px;
+      padding: 15px 20px;
+  
   }
   
-  .weather-icon {
-    height: 64px;
-    width: 64px;
-    margin-right: 10px;
+  .search-btn {
+      font-family: 'Bricolage Grotesque',
+          sans-serif;
+      background: #cca8e9;
+      border: none;
+      font-size: 16px;
+      font-weight: 700;
+      height: 50px;
+      padding: 15px 0;
   }
   
-  .temperature {
-    color: rgb(33, 33, 33);
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 1;
+  .weather-temperature strong {
+      font-family:'Bricolage Grotesque',
+          sans-serif;;
+      color: rgb(33, 33, 33);
+      font-size: 64px;
+      line-height: 1;
+      font-weight: 400;
   }
   
-  .units {
-    position: relative;
-    top: -34px;
+  .weather-temperature .units {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      position: relative;
+      font-size: 14px;
+      top: -34px;
   }
   
-  .search-form {
-    margin-bottom: 20px;
-  }
-  body {
-    font-family: sans-serif;
+  .weather-temperature img {
+      margin-right: 5px;
+      margin-bottom: 32px;
+      height: 64px;
+      width: 64px;
   }
   
+  .weather-temperature .active {
+      color: #cca8e9;
+      cursor: default;
+  }
+  
+  
+  
+  .WeatherForecast{
+      font-family: 'Bricolage Grotesque', sans-serif;
+          border-bottom: 1px solid #fcfaf8;
+              margin: 40px 0;
+              padding-bottom: 50px;
+              text-align: center;
+          }
+  
+  
+  .WeatherForecast .forecast-time {
+      color: rgb(135, 135, 135);
+      font-size: 16px;
+      font-family: 'Bricolage Grotesque', sans-serif ;
+      line-height: 20px;
+      text-align: center;
+  }
+  
+  
+  .Weather .WeatherForecast canvas {
+      display: block;
+      margin: 20px auto;
+  }
+  
+  .WeatherForecast .forecast-temperature {
+      color: #cca8e9;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.5;
+  }
+  
+  
+  .WeatherForecast .forecast-temperature-min {
+      margin-left: 10px;
+      opacity: .6;
+  }
+  img{
+      width: 70px;
+  }
+  
+  small {
+      font-family: 'Bricolage Grotesque',sans-serif;
+    margin-left: 10px;
+  }
